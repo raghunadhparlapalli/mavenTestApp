@@ -18,8 +18,13 @@
   <build>
     <finalName>mavenTestApp</finalName>
   </build>
+  <scm>
+	<connection>scm:git:git@github.com:raghunadhparlapalli/mavenTestApp.git</connection>
+	<developerConnection>scm:git:git@github.com:raghunadhparlapalli/mavenTestApp.git</developerConnection>
+	<url>scm:git:git@github.com:raghunadhparlapalli/mavenTestApp</url>
+  </scm>  
   <distributionManagement>
-  <repository>
+	<repository>
         <id>releases</id>
         <name>releases</name>
         <url>http://localhost:8082/nexus-webapp-2.14.9-01/content/repositories/releases</url>
