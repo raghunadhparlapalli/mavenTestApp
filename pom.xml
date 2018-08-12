@@ -20,8 +20,16 @@
   </build>
   <distributionManagement>
   <repository>
-    <id>releases</id>
-    <url>http://localhost:8082/nexus-webapp-2.14.9-01/content/repositories/releases</url>
-  </repository>
-  </distributionManagement>
+        <id>releases</id>
+        <name>releases</name>
+        <url>http://localhost:8082/nexus-webapp-2.14.9-01/content/repositories/releases</url>
+        <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>snapshots</name>
+        <url>http://localhost:8082/nexus-webapp-2.14.9-01/content/repositories/snapshots/</url>
+        <layout>default</layout>
+    </snapshotRepository>
+</distributionManagement>
 </project>
